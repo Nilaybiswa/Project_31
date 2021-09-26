@@ -14,7 +14,7 @@ function setup() {
   createCanvas(800, 800);
   engine = Engine.create();
   world = engine.world;
-  ground = new Ground(400,690,800,20);
+  ground = new Ground(400,800,800,20);
 
   //create division objects
   for (var k = 0; k <=width; k = k + 80) {
